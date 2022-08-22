@@ -13,7 +13,7 @@ return [
     | begins with 'http://'.
     |
     */
-    'api_url' => env('EXCHANGE_RATES_API_URL', 'http://api.exchangeratesapi.io/v1/'),
+    'api_url' => env('EXCHANGE_RATES_API_URL', 'https://api.exchangeratesapi.io/v1/'),
 
     /*
     |--------------------------------------------------------------------------

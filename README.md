@@ -7,6 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Install
+
+- please run `composer install`
+
+- copy .env example as .env
+
+- run command `php artisan key:generate`
+
+- add your api key in .env 
+(EXCHANGE_RATES_API_KEY, you can generate your key in exchangeratesapi.com)
+
+- add to .env `EXCHANGE_RATES_API_URL=http://api.exchangeratesapi.com/v1/`
+ 
+- run command `php artisan optimize`
+
+    
+    
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
